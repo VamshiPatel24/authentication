@@ -1,0 +1,38 @@
+.login_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height:100vh;
+}
+.login_frm{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    align-items: center;
+    justify-content: center;
+    border:2px solid black; 
+    padding: 30px;
+    border-radius: 15px;
+}
+.login_frm input{
+    font-size: 22px;
+    border-radius: 9px;
+    padding-left: 5px;
+    outline: none;
+    width:300px;
+    height:35px;
+}
+.login_frm button{
+    font-size: 26px;
+    letter-spacing: 1px;
+    background: rgb(235, 7, 7);
+    color: white;
+    outline: none;
+    border:none;
+    padding:10px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor:pointer;
+}
